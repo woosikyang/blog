@@ -8,7 +8,7 @@ tags:
 
 ---
 
-안녕하세요 오늘 리뷰할 논문은 Graph Convolutional Networks 입니다. GCN은 그래프 구조에서 사용하는 Graph Neural Network의 일종으로 2016년에 나온 논문이지만 convolution filter의 특징을 graph에 적용했다는 점에서 Graph 기반 이론의 시작에 적합하다고 생각합니다. 그럼 논문 요약 진행하겠습니다. 논문의 내용 및 사진 출처는 <a href="https://tkipf.github.io/graph-convolutional-networks/">GCN_github</a> 및 <a href="https://towardsdatascience.com/how-to-do-deep-learning-on-graphs-with-graph-convolutional-networks-7d2250723780">GCN_towardsdatascience</a> 를 참고하였습니다. 
+안녕하세요 오늘 리뷰할 논문은 Graph Convolutional Networks 입니다. GCN은 그래프 구조에서 사용하는 Graph Neural Network의 일종으로 2016년에 나온 논문이지만 convolution filter의 특징을 graph에 적용했다는 점에서 Graph 기반 이론의 시작에 적합하다고 생각합니다. 그럼 논문 요약 진행하겠습니다. 논문의 내용 및 사진 출처는 <a href="https://tkipf.github.io/graph-convolutional-networks/">**GCN_github**</a> 및 <a href="https://towardsdatascience.com/how-to-do-deep-learning-on-graphs-with-graph-convolutional-networks-7d2250723780">**GCN_towardsdatascience**</a> 를 참고하였습니다. 
 
 
 들어가며
