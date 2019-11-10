@@ -39,13 +39,12 @@ Multi-head attention이란 대표적인 attention 모델인 Transformer에서 �
 
 
 $$
-
 h = {h_1, h_2, ..., h_N}, h_i \in R^F
+$$
 
 
+$$
 h^' = {h^'_1, h^'_2, ..., h^'_N}, h_i \in R^{F^'}
-
-
 $$
 
 
