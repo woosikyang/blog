@@ -18,7 +18,7 @@ author: woosik yang
 name: woosik yang
 description: Personal blog and resume
 avatar: real.png
-email: woosik1505@korea.ac.kr
+#email: woosik1505@korea.ac.kr
 github: woosikyang
 linkedin: woosik-yang-050502167
 stackoverflow:    #e.g: users/2735833/proton1h1
@@ -28,10 +28,7 @@ tel: +44 0000 000000
 tel_full: tel:+440000000000
 google_maps: https://www.google.co.kr/maps/place/Korea+University/@37.5908032,127.025594,17z/data=!3m1!4b1!4m5!3m4!1s0x357cbcbc8d707a77:0x15038aa80b575dc9!8m2!3d37.590799!4d127.0277773?hl=en
 address:
-  street: 145 Anam-ro
-  postcode: 02841
-  city: Seoul
-  country: Korea
+  street: Seoul, Korea
 google_analytics: UA-163823017-1
 
 
