@@ -102,5 +102,3 @@ MSCOCO 와 VQA v2.0 데이터셋을 활용하여 실험을 진행하였고 예�
 본 논문은 기존의 Top-down 모델에 더해 bottom-up 모델을 결합한 방식을 제안하였습니다. 이를 통해서 attention이 더 자연스럽게 task에 반영될 수 있도록 구현하였고 이미지 캡셔닝과 VQA 모델에서 좋은 성능을 보여줍니다. 
 
 
-
-{% if page.comments %} <div id="post-disqus" class="container"> {% include disqus.html %} </div> {% endif %}
