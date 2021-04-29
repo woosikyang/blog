@@ -1,44 +1,38 @@
 ---
 layout: post
 comments: true
-title: Python_File_Handling
+title: Cybos Plus 자동매매
 categories: Python
 tags:
 - Python
-- glob
+- cybos
+- 자동매매
 
 ---
 
-Python File Handling
+Cybos Plus 자동매매
 =======
 
-안녕하세요 이번 포스트는 Python에서 파일 접근법을 다루도록 하겠습니다. 대표적인 라이브러리로 Glob이 있습니다. 
-
-To begin
--------
-
-Glob은 파일들의 리스트를 뽑을 때 사용합니다. Os.listdir과 유사하지만 경로명을 사용할 수 있다는 장점이 있습니다. 
-
-```python
-from glob import glob
-
-glob('*.jpg')
-
->> ['abc.jpg', 'efg.jpg']
-```
+Cybos Plus에서 사용되는 문법들에 대한 정리본입니다. 
 
 
-Combine
--------
+# 연결 여부 체크
+objCpCybos = win32com.client.Dispatch("CpUtil.CpCybos")
+bConnect = objCpCybos.IsConnect
 
-Glob의 특징을 활용하여 os.path와 결합하면 사용하고자하는 데이터를 유연하게 호출할 수 있게됩니다. 
 
-```python
-from glob import glob
-import os
+CpEvent - 실시간 이벤트 수신 (현재가와 주문 체결 실시간 처리)
 
-glob(os.path.join(os.getcwd(),'train','*.jpg')
+Cp6033 - 주식 잔고 조회 
 
->> ['tr_0.jpg', 'tr_1.jpg', 'tr_2.jpg']
-```
+CpRPCurrentPrice - 현재가 한 종목 조회
 
+CpMarketEye - 복수 현재가 종목 조회
+
+CpTd6033 - 계좌 잔고 조회
+
+CpTdNew5331A - 계좌 예수금 조회
+
+CpTd5339 - 미체결 조회
+
+ade.CpTd5341 - 주문/체결 내역 조회
